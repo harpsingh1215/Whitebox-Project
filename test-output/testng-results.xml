@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10074" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10074" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:59Z">
+      <class name="com.qa.whitebox.tests.SchduleTestPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@2b98378d]" name="setUp" is-config="true" duration-ms="8358" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifynavigateToFeaturePageLink()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@2b98378d]" name="verifynavigateToFeaturePageLink" duration-ms="1695" started-at="2020-02-03T04:33:58Z" finished-at="2020-02-03T04:33:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigateToFeaturePageLink -->
+      </class> <!-- com.qa.whitebox.tests.SchduleTestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
