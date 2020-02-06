@@ -1,21 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10074" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:59Z">
+  <suite name="Whitebox application Regression Test Suit" duration-ms="48933" started-at="2020-02-05T18:51:39Z" finished-at="2020-02-05T18:52:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10074" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:59Z">
-      <class name="com.qa.whitebox.tests.SchduleTestPage">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@2b98378d]" name="setUp" is-config="true" duration-ms="8358" started-at="2020-02-03T04:33:49Z" finished-at="2020-02-03T04:33:58Z">
+    <test name="testngTest" duration-ms="48933" started-at="2020-02-05T18:51:39Z" finished-at="2020-02-05T18:52:28Z">
+      <class name="com.qa.whitebox.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="6962" started-at="2020-02-05T18:52:01Z" finished-at="2020-02-05T18:52:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifynavigateToFeaturePageLink()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@2b98378d]" name="verifynavigateToFeaturePageLink" duration-ms="1695" started-at="2020-02-03T04:33:58Z" finished-at="2020-02-03T04:33:59Z">
+        <test-method status="PASS" signature="loginCorrectCredentialsTest()[pri:1, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="loginCorrectCredentialsTest" duration-ms="269" started-at="2020-02-05T18:52:08Z" finished-at="2020-02-05T18:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCorrectCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="741" started-at="2020-02-05T18:52:08Z" finished-at="2020-02-05T18:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="setUp" is-config="true" duration-ms="6758" started-at="2020-02-05T18:52:18Z" finished-at="2020-02-05T18:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToHomePage()[pri:2, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="navigateToHomePage" duration-ms="2567" started-at="2020-02-05T18:52:25Z" finished-at="2020-02-05T18:52:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.whitebox.tests.LoginTest@91161c7]" name="tearDown" is-config="true" duration-ms="709" started-at="2020-02-05T18:52:27Z" finished-at="2020-02-05T18:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.whitebox.tests.LoginTest -->
+      <class name="com.qa.whitebox.tests.SchduleTestPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@604ed9f0]" name="setUp" is-config="true" duration-ms="9634" started-at="2020-02-05T18:51:39Z" finished-at="2020-02-05T18:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifynavigateToFeaturePageLink()[pri:0, instance:com.qa.whitebox.tests.SchduleTestPage@604ed9f0]" name="verifynavigateToFeaturePageLink" duration-ms="1213" started-at="2020-02-05T18:51:49Z" finished-at="2020-02-05T18:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifynavigateToFeaturePageLink -->
       </class> <!-- com.qa.whitebox.tests.SchduleTestPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.whitebox.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="6839" started-at="2020-02-05T18:51:50Z" finished-at="2020-02-05T18:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateHomePageLink()[pri:1, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="navigateHomePageLink" duration-ms="3204" started-at="2020-02-05T18:51:57Z" finished-at="2020-02-05T18:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateHomePageLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="810" started-at="2020-02-05T18:52:00Z" finished-at="2020-02-05T18:52:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="setUp" is-config="true" duration-ms="8536" started-at="2020-02-05T18:52:09Z" finished-at="2020-02-05T18:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitle()[pri:2, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="verifyHomePageTitle" duration-ms="9" started-at="2020-02-05T18:52:17Z" finished-at="2020-02-05T18:52:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.whitebox.tests.HomePageTest@5c3bd550]" name="tearDown" is-config="true" duration-ms="636" started-at="2020-02-05T18:52:17Z" finished-at="2020-02-05T18:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.whitebox.tests.HomePageTest -->
+    </test> <!-- testngTest -->
+  </suite> <!-- Whitebox application Regression Test Suit -->
 </testng-results>
